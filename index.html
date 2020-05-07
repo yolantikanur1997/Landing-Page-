@@ -1,0 +1,493 @@
+<!DOCTYPE html>
+<html>
+<title>YBRevolution</title>
+ <link rel="icon" href="assets/img/logo.jpg" type="image/ico" />
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="assets/css/style.css" type="text/css">
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
+
+body, html {
+  height: 100%;
+  line-height: 1.8;
+}
+
+/* Full height image header */
+.bgimg-1 {
+  background-position: center;
+  background-size: cover;
+  background-image: url("/w3images/mac.jpg");
+  min-height: 100%;
+}
+
+.w3-bar .w3-button {
+  padding: 16px;
+}
+</style>
+<body>
+
+<!-- Navbar (sit on top) -->
+<div class="w3-top">
+  <div class="w3-bar w3-light-grey w3-card" id="myNavbar">
+    <a href="#home" class="w3-bar-item w3-button w3-wide">YBRevolution</a>
+    <!-- Right-sided navbar links -->
+    <div class="w3-right w3-hide-small">
+      <a href="#about" class="w3-bar-item w3-button"><i class="fa fa-address-card"></i> TENTANG</a>
+      <a href="#work" class="w3-bar-item w3-button"><i class="fa fa-th"></i> LAYANAN</a>
+      <a href="#testimoni" class="w3-bar-item w3-button"><i class="fa fa-comments"></i> TESTIMONI</a>
+      <a href="#contact" class="w3-bar-item w3-button"><i class="fa fa-envelope"></i> KONTAK</a>
+    </div>
+    <!-- Hide right-floated links on small screens and replace them with a menu icon -->
+
+    <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium" onclick="w3_open()">
+      <i class="fa fa-bars"></i>
+    </a>
+  </div>
+</div>
+
+<!-- Sidebar on small screens when clicking the menu icon -->
+<nav class="w3-sidebar w3-bar-block w3-black w3-card w3-animate-left w3-hide-medium w3-hide-large" style="display:none" id="mySidebar">
+  <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-large w3-padding-16">Close ×</a>
+  <a href="#about" onclick="w3_close()" class="w3-bar-item w3-button">TENTANG</a>
+  <a href="#work" onclick="w3_close()" class="w3-bar-item w3-button">LAYANAN</a>
+  <a href="#testimoni" onclick="w3_close()" class="w3-bar-item w3-button"> TESTIMONI</a>
+  <a href="#contact" onclick="w3_close()" class="w3-bar-item w3-button">KONTAK</a>
+</nav>
+
+<!-- Header with full-height image -->
+<header class="bgimg-1 w3-display-container w3-grayscale-min" id="home" style="background-image: url('assets/img/leptop.jpg'); background-size: 100%;">
+  <div class="w3-display-left w3-text-white" style="padding:48px; padding-top: 500px;">
+    <span class="w3-xxlarge w3-hide-small w3-black" >Mulai Mencipatakan Website dan Aplikasi Impian Anda</span><br>
+    <span class="w3-large ">Dengan Bergabung Bersama Kami</span>
+    <p><a href="#about" class="w3-button w3-white w3-padding-large w3-large w3-margin-top w3-opacity w3-hover-opacity-off">Pelajari </a></p>
+  </div> 
+  <div class="w3-display-bottomright w3-text-grey w3-large" style="padding:24px 48px">   
+    <a href="https://www.instagram.com/ybrevolution/"><i class="fa fa-instagram w3-hover-opacity"> YBRevolution</i></a>
+    <i class="fa fa-whatsapp w3-hover-opacity"> 089647054199</i>
+    
+  </div>
+</header>
+
+<!-- About Section -->
+<div class="w3-container" style="padding:128px 16px; " id="about">
+  <h3 class="w3-center">TENTANG KAMI</h3><br>
+  <!--<p class="w3-center w3-large">Apa Saja Yang Kami Sediakan</p>-->
+  <div class="w3-row-padding w3-center" style="margin-top:64px;">
+    <div class="w3-quarter">
+      <i class="fa fa-users w3-margin-bottom w3-jumbo w3-center"></i>
+      <p class="w3-large">Les / Bimbingan</p>
+      <p>Khusus Paket Bimbingan Mahasiswa Akan Dibimbing Dalam Penyusunan Dan Pembuatan Sistem Hingga H-1 Sidang</p>
+      <p>Terdapat Dua Jenis Les, Yakni <i>Private</i> Dan Kelompok. Terbuka Untuk Mahasiswa Atau Umum</p>
+
+    </div>
+    <div class="w3-quarter">
+      <i class="fa fa-laptop w3-margin-bottom w3-jumbo"></i>
+      <p class="w3-large">Website / Dekstop</p>
+      <p>Aplikasi Bisa Dibuat Dengan 2 Bahasa, yakni Java Application Untuk Dekstop dan PHP CI Serta PHP Native Untuk Website</p>
+    </div>
+    <div class="w3-quarter">
+      <i class="fa fa-thumbs-up w3-margin-bottom w3-jumbo"></i>
+      <p class="w3-large">Tips & Trick</p>
+      <p>Untu Paket Mahasiswa, Akan Diberikan Tips & Trik Dalam Penyusunan Serta Untuk Menghadapi Sidang</p>
+    </div>  
+  </div>
+</div>
+
+<!-- Promo Section - "We know design" -->
+<div class="w3-container w3-light-grey" style="padding:128px 16px">
+  <div class="w3-row-padding">
+    <div class="w3-col m6">
+      <h3>YBRevolution</h3>
+      <p>Cari Keperluan Anda Di Layanan Kami</p>
+      <p><a href="#work" class="w3-button w3-black"><i class="fa fa-th"> </i> Lihat Layanan</a></p>
+    </div>
+    <div class="w3-col m6">
+      <img class="w3-image w3-round-large" src="assets/img/code.jpg" alt="Buildings" width="700" height="394">
+    </div>
+  </div>
+</div>
+
+<!-- Promo Section "Statistics" -->
+<div class="w3-container w3-row w3-center w3-dark-grey w3-padding-64">
+  <div class="w3-quarter" style="width: 430px;">
+    <span class="w3-xxlarge">55+</span>
+    <br>Projects Selesai
+  </div>
+  <div class="w3-quarter" style="width: 430px;">
+    <span class="w3-xxlarge">41+</span>
+    <br>Total Clients
+  </div>
+  <div class="w3-quarter" style="width: 430px;">
+    <span class="w3-xxlarge">24+</span>
+    <br>Anggota Les
+  </div>
+</div>
+
+<!-- Work Section -->
+<div class="w3-container" style="padding:128px 16px;" id="work">
+  <h3 class="w3-center">LAYANAN</h3>
+
+  <div class="w3-row-padding" style="margin-top:64px">
+    <div class="w3-col l3 m6">
+      <img src="assets/img/jabattangan.jpg" style="width:100%; height: 200px" onclick="document.getElementById('modal01').style.display='block'" class="w3-hover-opacity">
+      <p>Bimbingan + Program  / Skripsi</p>
+    </div>
+    <div class="w3-col l3 m6">
+      <img src="assets/img/bimbingan (2).jpg" style="width:100%; height: 200px" onclick="document.getElementById('modal02').style.display='block'" class="w3-hover-opacity" alt="">
+      <p>Bimbingan TA / Skripsi</p>
+    </div>
+    <div class="w3-col l3 m6">
+      <img src="assets/img/coding.jpg" style="width:100%; height: 200px" onclick="document.getElementById('modal03').style.display='block'" class="w3-hover-opacity" alt="">
+      <p>Program Umum, TA / Skripsi</p>
+    </div>
+    <div class="w3-col l3 m6">
+      <img src="assets/img/layout.jpg" style="width:100%; height: 200px"onclick="document.getElementById('modal04').style.display='block'" class="w3-hover-opacity" alt="">
+      <p>Layout Program</p>
+    </div>
+  </div>
+
+  <div class="w3-row-padding w3-section">
+    <div class="w3-col l3 m6">
+      <img src="assets/img/les.jpg" style="width:100%; height: 200px" onclick="document.getElementById('modal05').style.display='block'" class="w3-hover-opacity" alt="">
+      <p>Les Program</p>
+    </div>
+    <div class="w3-col l3 m6">
+      <img src="assets/img/excel.jpg" style="width:100%; height: 200px" onclick="document.getElementById('modal06').style.display='block'" class="w3-hover-opacity" alt="">
+      <p>Les Microsoft Excel</p>
+    </div>
+    <div class="w3-col l3 m6">
+      <img src="assets/img/word.jpg" style="width:100%; height: 200px" onclick="document.getElementById('modal07').style.display='block'" class="w3-hover-opacity" alt="">
+      <p>Les Microsoft Word</p>
+    </div>
+    <div class="w3-col l3 m6">
+      <img src="assets/img/ppt.jpg" style="width:100%; height: 200px" onclick="document.getElementById('modal08').style.display='block'" class="w3-hover-opacity" alt="">
+      <p>Les Power Point</p>
+    </div>
+  </div>
+</div>
+
+<!-- Modal for full size images on click-->
+<div id="modal01" class="w3-modal w3-black" onclick="this.style.display='none'">
+  <span class="w3-button w3-xxlarge w3-black w3-padding-large w3-display-topright" title="Close Modal Image">×</span>
+  <div class="w3-modal-content w3-animate-zoom w3-justify w3-transparent w3-padding-50">
+    <h1>Paket Bimbingan + Program</h1>
+    <p id="caption" class="w3-opacity w3-large">
+      Paket Program adalah salah satu paket membantu para pejuang tugas akhir / skripsi untuk membangun sebuah program. <br>Kenapa paket ini cocok sekali untuk mahasiswa tugas akhir / skripsi ? karna paket ini memberikan beberapa keuntungan yaitu :
+
+      <h5 style="font-weight: bold">Uraian :</h5>
+  <ul>
+    <li>Program <i class="li-isi">Dibikinkan</i> dan Juga <i class="li-isi">Diajarkan</i></li>
+    <li>Diberikan <i class="li-isi">Software Penunjang</i></li>
+    <li>Program Dibangun Sesuai <i class="li-isi">Keinginan</i> Client</li>
+    <li>Diberian <i class="li-isi">Tips</i> dan <i class="li-isi">Trik</i> Mengahadapi <i class="li-isi">Sidang</i></li>
+  
+  </ul>
+  <h5 style="font-weight: bold">Perlu Diperhatikan :</h5>
+  <ul>
+    <li>Kami Tidak <i class="li-isi-1">Membuatkan Laporan</i>, Laporan Tetap Akan Disusun Oleh Client, <i class="li-isi-1">Tugas Kami Memberikan Arahan dan Wadah Bagi Client Dalam Memecahkan Persoalan</i></li>
+    <li>Kontrak <i class="li-isi-1">Selesai H-1 Sidang</i>, Jika Ada Perbaikan Ketika Client <i class="li-isi-1">Dinyatakan Lulus</i> Maka Akan Ada Biaya Sesuai Dengan Apa Yang Diperbaiki. Tapi jika Client Dinyatakan <i class="li-isi-1">Gagal</i> Maka Tidak Akan Dikenakan Biaya Tambahan</li>
+    <li>Ada <i class="li-isi-1">Dua Jenis Program</i> Yang Kami Terima, Yakni <i class="li-isi-1">Website</i> dan <i class="li-isi-1">Dekstop</i></li>
+    <li>Bahasa Pemograman Yang Kami Terima Untuk <i class="li-isi-1">Website</i> Yaitu, <i class="li-isi-1">Java</i>, <i class="li-isi-1">PHP Native</i>, dan <i class="li-isi-1">PHP CI</i></li>
+    <li>Bahasa Pemograman Yang Kami Terima Untuk <i class="li-isi-1">Dekstop</i> Yaitu, <i class="li-isi-1">Java</i>  
+  </ul>
+    </p>
+  </div>
+</div>
+
+<!--modal dua-->
+<div id="modal02" class="w3-modal w3-black" onclick="this.style.display='none'">
+  <span class="w3-button w3-xxlarge w3-black w3-padding-large w3-display-topright" title="Close Modal Image">×</span>
+  <div class="w3-modal-content w3-animate-zoom w3-justify w3-transparent w3-padding-50">
+    <h1>Paket Bimbingan</h1>
+    <p id="caption" class="w3-opacity w3-large">
+      Paket Bimbingan adalah salah satu paket membantu para pejuang tugas akhir / skripsi untuk menyusun sebuah laporan.<br><br> Kenapa paket ini cocok sekali untuk mahasiswa tugas akhir / skripsi ? karna paket ini memberikan beberapa keuntungan yaitu :
+
+      <h5 style="font-weight: bold">Uraian :</h5>
+  <ul>
+    <li>Dibimbing Hingga <i class="li-isi">H-1 Sidang</i></li>
+    <li>Diarahkan Membuat Diagram Seperti ERD <i class="li-isi">(Entity Relationship Diagram)</i>, LRS <i class="li-isi">(Logical Relationship Diagram)</i> ,dan UML<i class="li-isi">(Unifed Modeling Language)</i></li>
+    <li>Program Dibangun Sesuai <i class="li-isi">Keinginan</i> Client</li>
+    <li>Diberian <i class="li-isi">Tips</i> dan <i class="li-isi">Trik</i> Mengahadapi <i class="li-isi">Sidang</i></li>
+  
+  </ul>
+  <h5 style="font-weight: bold">Perlu Diperhatikan :</h5>
+  <ul>
+    <li>Kami Tidak <i class="li-isi-1">Membuatkan Laporan</i>, Laporan Tetap Akan Disusun Oleh Client, <i class="li-isi-1">Tugas Kami Memberikan Arahan dan Wadah Bagi Client Dalam Memecahkan Persoalan</i></li>
+    <li>Kontrak <i class="li-isi-1">Selesai H-1 Sidang</i>, Jika Ada Perbaikan Ketika Client <i class="li-isi-1">Dinyatakan Lulus</i> Maka Akan Ada Biaya Sesuai Dengan Apa Yang Diperbaiki. Tapi jika Client Dinyatakan <i class="li-isi-1">Gagal</i> Maka Tidak Akan Dikenakan Biaya Tambahan</li>
+    <li>Ada <i class="li-isi-1">Dua Jenis Program</i> Yang Kami Terima, Yakni <i class="li-isi-1">Website</i> dan <i class="li-isi-1">Dekstop</i></li>
+    <li>Bahasa Pemograman Yang Kami Terima Untuk <i class="li-isi-1">Website</i> Yaitu, <i class="li-isi-1">Java</i>, <i class="li-isi-1">PHP Native</i>, dan <i class="li-isi-1">PHP CI</i></li>
+    <li>Bahasa Pemograman Yang Kami Terima Untuk <i class="li-isi-1">Dekstop</i> Yaitu, <i class="li-isi-1">Java</i>  
+  
+  </ul>
+    </p>
+  </div>
+</div>
+<!--modal tiga-->
+<div id="modal03" class="w3-modal w3-black" onclick="this.style.display='none'">
+  <span class="w3-button w3-xxlarge w3-black w3-padding-large w3-display-topright" title="Close Modal Image">×</span>
+  <div class="w3-modal-content w3-animate-zoom w3-justify w3-transparent w3-padding-50">
+    <h1>Paket Program</h1>
+    <p id="caption" class="w3-opacity w3-large">
+      Paket Program adalah salah satu paket membantu para pejuang tugas akhir / skripsi untuk membangun sebuah program.<br><br> <div class="um">Selain itu, paket ini juga berlaku untuk Umum.</div><br><br> 
+      Kenapa paket ini cocok sekali untuk mahasiswa tugas akhir / skripsi ? karna paket ini memberikan beberapa keuntungan yaitu :
+
+      <h5 style="font-weight: bold">Uraian :</h5>
+  <ul>
+    <li>Program <i class="li-isi">Dibikinkan</i> dan Juga <i class="li-isi">Diajarkan</i></li>
+    <li>Diberikan <i class="li-isi">Software Penunjang</i></li>
+    <li>Program Dibangun Sesuai <i class="li-isi">Keinginan</i> Client</li>
+    <li>Diberian <i class="li-isi">Tips</i> dan <i class="li-isi">Trik</i> Mengahadapi <i class="li-isi">Sidang</i></li>
+  
+  </ul>
+  <h5 style="font-weight: bold">Perlu Diperhatikan :</h5>
+  <ul>
+    <li>Kami Tidak <i class="li-isi-1">Membuatkan Laporan</i>, Laporan Tetap Akan Disusun Oleh Client, <i class="li-isi-1">Tugas Kami Memberikan Arahan dan Wadah Bagi Client Dalam Memecahkan Persoalan</i></li>
+    <li>Kontrak <i class="li-isi-1">Selesai H-1 Sidang</i>, Jika Ada Perbaikan Ketika Client <i class="li-isi-1">Dinyatakan Lulus</i> Maka Akan Ada Biaya Sesuai Dengan Apa Yang Diperbaiki. Tapi jika Client Dinyatakan <i class="li-isi-1">Gagal</i> Maka Tidak Akan Dikenakan Biaya Tambahan</li>
+    <li>Ada <i class="li-isi-1">Dua Jenis Program</i> Yang Kami Terima, Yakni <i class="li-isi-1">Website</i> dan <i class="li-isi-1">Dekstop</i></li>
+    <li>Bahasa Pemograman Yang Kami Terima Untuk <i class="li-isi-1">Website</i> Yaitu, <i class="li-isi-1">Java</i>, <i class="li-isi-1">PHP Native</i>, dan <i class="li-isi-1">PHP CI</i></li>
+    <li>Bahasa Pemograman Yang Kami Terima Untuk <i class="li-isi-1">Dekstop</i> Yaitu, <i class="li-isi-1">Java</i>  
+  
+  </ul>
+    </p>
+  </div>
+</div>
+  <!--modal empat-->
+<div id="modal04" class="w3-modal w3-black" onclick="this.style.display='none'">
+  <span class="w3-button w3-xxlarge w3-black w3-padding-large w3-display-topright" title="Close Modal Image">×</span>
+  <div class="w3-modal-content w3-animate-zoom w3-justify w3-transparent w3-padding-50">
+    <h1>Paket Layout Program</h1>
+    <p id="caption" class="w3-opacity w3-large">
+     Seperti judulnya, paket ini hanya untuk pembuatan layout program, atau <i>Landing Page</i> atau <i>User Interace</i><br><br> 
+   Paket ini berlaku untuk umum ataupun mahasiswa</p>
+      <h5 style="font-weight: bold">Uraian :</h5>
+  <ul>
+    <li>Layout Disusun Sesuai Keinginan <i class="li-isi">Dibikinkan</i></li>
+    <li>Bergaya <i class="li-isi">Dinamis</i></li>
+    <li>Menggunakan <i class="li-isi">Framework</i> CSS</li>  
+  </ul> 
+
+    </p>
+  </div>
+</div>
+
+  <!--modal lima-->
+<div id="modal05" class="w3-modal w3-black" onclick="this.style.display='none'">
+  <span class="w3-button w3-xxlarge w3-black w3-padding-large w3-display-topright" title="Close Modal Image">×</span>
+  <div class="w3-modal-content w3-animate-zoom w3-justify w3-transparent w3-padding-50">
+    <h1>Paket Les Program</h1>
+    <p id="caption" class="w3-opacity w3-large">
+     Di jaman modern dan serba teknologi saat ini, memang membutuhkan tenaga-tenaga yang mengerti tentang teknologi, maka dari itu YBRevolution juga ikut andil dengan membuka jasa Les Program di Kota Pontianak<br><br> 
+      <h5 style="font-weight: bold">Uraian :</h5>
+  <ul>
+    <li>Les Boleh <i class="li-isi">Private / Kelompok</i></li>
+    <li>Dalam Satu Minggu Ada <i class="li-isi">Dua Kali Pertemuan</i></li>  
+    <li>Dalam Satu Kelompok Maksimal <i class="li-isi">6 Orang</i>Cocok Banget Buat Kalian Yang Ingin Les Bareng Sohib</li> 
+    <li>Dalam Satu Minggu Ada <i class="li-isi">Dua Kali Pertemuan</i></li>  
+    <li>Bahasa Pemograman Yang Dipelajari <i class="li-isi">PHP Native dan PHP CI Untuk Website</i></li> 
+    <li>Untuk Tampilan Yakni <i class="li-isi">HTML, CSS, CSS FRAMEWORK, dan JAVASCRIPT</i></li>   
+  </ul>  
+    </p>
+  </div>
+</div>
+
+  <!--modal enam-->
+<div id="modal06" class="w3-modal w3-black" onclick="this.style.display='none'">
+  <span class="w3-button w3-xxlarge w3-black w3-padding-large w3-display-topright" title="Close Modal Image">×</span>
+  <div class="w3-modal-content w3-animate-zoom w3-justify w3-transparent w3-padding-50">
+    <h1>Paket Les Microsoft Excel</h1>
+    <p id="caption" class="w3-opacity w3-large">
+    Microsoft Excel adalah satu Aplikasi yang selalu menjadi tolak ukur seluruh perusahaan dalam mencari Karyawan / Pegawai. Namun, masih banyak yang tidak tahu mengenai penggunaan Aplikasi ini agar bisa membantu pekerjaan lebih efektif dan efisien<br><br>Maka dari itu, YBRevolution membuat Les khusus Microsoft Excel bagi teman-teman yang baru ingin belajar dan yang sudah bekerja.
+      <h5 style="font-weight: bold">Uraian :</h5>
+  <ul>
+    <li>Les Boleh <i class="li-isi">Private / Kelompok</i></li>
+    <li>Dalam Satu Minggu Ada <i class="li-isi">Dua Kali Pertemuan</i></li>  
+    <li>Dalam Satu Kelompok Maksimal <i class="li-isi">6 Orang</i> Cocok Banget Buat Kalian Yang Ingin Les Bareng Sohib</li> 
+    <li>Dalam Satu Minggu Ada <i class="li-isi">Dua Kali Pertemuan</i></li>  
+  </ul>  
+    </p>
+  </div>
+</div>
+
+  <!--modal tujuh-->
+<div id="modal07" class="w3-modal w3-black" onclick="this.style.display='none'">
+  <span class="w3-button w3-xxlarge w3-black w3-padding-large w3-display-topright" title="Close Modal Image">×</span>
+  <div class="w3-modal-content w3-animate-zoom w3-justify w3-transparent w3-padding-50">
+    <h1>Paket Les Microsoft Word</h1>
+    <p id="caption" class="w3-opacity w3-large">
+    Microsoft Excel adalah satu Aplikasi yang selalu menjadi tolak ukur seluruh perusahaan dalam mencari Karyawan / Pegawai. Namun, masih banyak yang tidak tahu mengenai penggunaan Aplikasi ini agar bisa membantu pekerjaan lebih efektif dan efisien<br><br>Maka dari itu, YBRevolution membuat Les khusus Microsoft Word bagi teman-teman yang baru ingin belajar dan yang sudah bekerja.
+      <h5 style="font-weight: bold">Uraian :</h5>
+  <ul>
+    <li>Les Boleh <i class="li-isi">Private / Kelompok</i></li>
+    <li>Dalam Satu Minggu Ada <i class="li-isi">Dua Kali Pertemuan</i></li>  
+    <li>Dalam Satu Kelompok Maksimal <i class="li-isi">6 Orang</i> Cocok Banget Buat Kalian Yang Ingin Les Bareng Sohib</li> 
+    <li>Dalam Satu Minggu Ada <i class="li-isi">Dua Kali Pertemuan</i></li>  
+  </ul>  
+    </p>
+  </div>
+</div>
+
+<!--modal delapan-->
+<div id="modal08" class="w3-modal w3-black" onclick="this.style.display='none'">
+  <span class="w3-button w3-xxlarge w3-black w3-padding-large w3-display-topright" title="Close Modal Image">×</span>
+  <div class="w3-modal-content w3-animate-zoom w3-justify w3-transparent w3-padding-50">
+    <h1>Paket Les Microsoft Power Point</h1>
+    <p id="caption" class="w3-opacity w3-large">
+    Microsoft Excel adalah satu Aplikasi yang selalu menjadi tolak ukur seluruh perusahaan dalam mencari Karyawan / Pegawai. Namun, masih banyak yang tidak tahu mengenai penggunaan Aplikasi ini agar bisa membantu pekerjaan lebih efektif dan efisien<br><br>Maka dari itu, YBRevolution membuat Les khusus Microsoft Word bagi teman-teman yang baru ingin belajar dan yang sudah bekerja.
+      <h5 style="font-weight: bold">Uraian :</h5>
+  <ul>
+    <li>Les Boleh <i class="li-isi">Private / Kelompok</i></li>
+    <li>Dalam Satu Minggu Ada <i class="li-isi">Dua Kali Pertemuan</i></li>  
+    <li>Dalam Satu Kelompok Maksimal <i class="li-isi">6 Orang</i> Cocok Banget Buat Kalian Yang Ingin Les Bareng Sohib</li> 
+    <li>Dalam Satu Minggu Ada <i class="li-isi">Dua Kali Pertemuan</i></li>  
+  </ul>  
+    </p>
+  </div>
+</div>
+<!-- Skills Section -->
+<div class="w3-container w3-light-grey w3-padding-64" id="testimoni">
+  
+    <div class="slideshow-container">
+
+<div class="mySlides">
+  <q>Alhamdulilah.. Microsoft Power Point java dekstop untuk Tugas Akhir kemaren sangat menarik dan juga sangat dimengerti oleh user, Bagus Pokoknya</q>
+  <p class="author">- Client 1 <br><a href="https://www.instagram.com/ybrevolution/" style="text-decoration: none">Cek Sumber</a></p>
+</div>
+
+<div class="mySlides">
+  <q>Bagus kak <i class="fa fa-thumbs-up"></i> program dan penjelasan yang sangat sangat bagus dan menarik, sehingga saya sendiri tertarik untuk tau lebih jauh tentang pemograman</q>
+  <p class="author">- Client 2 <br>
+  <a href="https://www.instagram.com/ybrevolution/" style="text-decoration: none">Cek Sumber</a></p>
+</div>
+
+<div class="mySlides">
+  <q>Terimkasih kak atas bimbingan dan motivasinye sehingga saye bise lulus sidang</q>
+  <p class="author">- Client 3 <br>
+  <a href="https://www.instagram.com/ybrevolution/" style="text-decoration: none">Cek Sumber</a></p>
+</div>
+
+<div class="mySlides">
+  <q>mau kasi testimoni ni, pembuatan programnya bagus, cepat, selesai juga sesuai target. Pokoknya memuaskan banget dan recommended deh, semoga kedepannya lebih bagus lagi ya</q>
+  <p class="author">- Client 4 <br>
+  <a href="https://www.instagram.com/ybrevolution/" style="text-decoration: none">Cek Sumber</a></p>
+</div>
+
+<div class="mySlides">
+  <q>siang kak, terima kasih atas jasa pembuatan aplikasi kakak, saya merasa sangat puas dengan pelayanan jasa pembuatan aplikasi kakak, semoga bisnisnya selalu lancar sukses dan menjadi jas pembuatan aplikasi yang terbaik. Terimakasih juga selama menjadi cleint kakak, kakak selalu siap dengan apa yang saya minta dan kakak juga selalu memberi semangat di saat ingin menyerah dan Puji Tuhan Lulus dengan nilai yang sangat memuaskan</q>
+  <p class="author">- Client 5 <br>
+  <a href="https://www.instagram.com/ybrevolution/" style="text-decoration: none">Cek Sumber</a></p>
+</div>
+
+<div class="mySlides">
+  <q>Assalamualikum kak. Alhamdulilah kak. Berkat kakak saya akhirnya bisa mencapai ke tahap ini, Makasih ya kak atas bimbingan kakak selama ini dari awal sampai akhir, dari susah senangnya dan paling banyak susahnya <i class="fa fa-grin-beam"></i> Terimakasih atas bantuan nya kak dan hasilnya sangat memuaskan</q>
+  <p class="author">- Client 6 <br>
+  <a href="https://www.instagram.com/ybrevolution/" style="text-decoration: none">Cek Sumber</a></p>
+</div>
+
+<div class="mySlides">
+  <q>Makasih ya bimbingannya kak. Banyak jelas-jelasin sehingga hampir semua materi aku paham. Aku bisa menguasainya</q>
+  <p class="author">- Client 7 <br>
+  <a href="https://www.instagram.com/ybrevolution/" style="text-decoration: none">Cek Sumber</a></p>
+</div>
+
+<div class="mySlides">
+  <q>Assalamualikum Kak, Alhamdulilah Sidang sudah selesai, berkat bimbingan kakak semuanya berjalan lancar.. makasih ye kak atas ilmunye, bantuanye.. maaf selama ini merepotkan kakak dgn segala pertanyaann <i class="fa fa-smile-beam"></i> sekali lagi makasih ye kak</q>
+  <p class="author">- Client 8 <br>
+  <a href="https://www.instagram.com/ybrevolution/" style="text-decoration: none">Cek Sumber</a></p>
+</div>
+
+<a class="prev" onclick="plusSlides(-1)">❮</a>
+<a class="next" onclick="plusSlides(1)">❯</a>
+
+</div>
+
+<div class="dot-container">
+  <span class="dot" onclick="currentSlide(1)"></span> 
+  <span class="dot" onclick="currentSlide(2)"></span> 
+  <span class="dot" onclick="currentSlide(3)"></span>
+  <span class="dot" onclick="currentSlide(4)"></span>
+  <span class="dot" onclick="currentSlide(5)"></span>
+  <span class="dot" onclick="currentSlide(6)"></span> 
+  <span class="dot" onclick="currentSlide(7)"></span>
+  <span class="dot" onclick="currentSlide(8)"></span> 
+</div>
+  </div>
+
+
+<!-- Contact Section -->
+<div class="w3-container w3-dark-grey" style="padding:128px 16px" id="contact">
+  <h3 class="w3-center">KONTAK</h3>
+  <p class="w3-center w3-large">Hubungi Kami Jika Ada Pertanyaan Lebih Lanjut</p>
+  <div style="margin-top:48px">
+    <p><i class="fa fa-map-marker fa-fw w3-xxlarge w3-margin-right"></i> Pontianak, Kalimantan Barat</p>
+    <p><i class="fa fa-whatsapp fa-fw w3-xxlarge w3-margin-right"></i> 089647054199</p>
+    <p><a href="https://www.instagram.com/ybrevolution/" title="YBRevolution" target="_blank" class="w3-hover-text-blue" style="text-decoration: none"> <i class="fa fa-instagram fa-fw w3-xxlarge w3-margin-right"></i>YBRevolution</a></p>
+    <br>
+    </div>
+</div>
+
+<!-- Footer -->
+<footer class="w3-center w3-black w3-padding-64">
+  <a href="#home" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a> 
+  <p> &copy 2020 &reg All Right Reserved <a href="https://www.instagram.com/ybrevolution/" title="YBRevolution" target="_blank" class="w3-hover-text-green" style="text-decoration: none"> YBRevolution</a></p>
+</footer>
+ 
+<script>
+// Modal Image Gallery
+function onClick(element) {
+  document.getElementById("img01").src = element.src;
+  document.getElementById("modal01").style.display = "block";
+  var captionText = document.getElementById("caption");
+  captionText.innerHTML = element.alt;
+}
+
+
+// Toggle between showing and hiding the sidebar when clicking the menu icon
+var mySidebar = document.getElementById("mySidebar");
+
+function w3_open() {
+  if (mySidebar.style.display === 'block') {
+    mySidebar.style.display = 'none';
+  } else {
+    mySidebar.style.display = 'block';
+  }
+}
+
+// Close the sidebar with the close button
+function w3_close() {
+    mySidebar.style.display = "none";
+}
+
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+}
+</script>
+
+</body>
+</html>
